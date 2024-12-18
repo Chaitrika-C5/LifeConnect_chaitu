@@ -1,0 +1,14 @@
+{
+  "clients": [
+    {
+      "id": "f028",
+      "username": "chaitrika",
+      "email": "chaitu@gmail.com",
+      "password": "chaitu",
+      "mobile": "9491070035",
+      "age": "20",
+      "gender": "Female"
+    }
+  ],
+  "hospitalMgmt": []
+}

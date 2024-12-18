@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #22bddf;
+}
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .nav-icons a {
+    margin-left: 60px;
+  }
+  
+  .nav-icons img {
+    height: 60px; 
+    /* transition: transform 0.3s; */
+  }
+  
+  /* .nav-icons img:hover {
+    transform: scale(1.1);
+  } */
+
+  .rt-icons{
+    padding-top: 1em;
+    mix-blend-mode: multiply;
+    font-size: 1.2em;
+  }
+
+  .logo{
+    margin-top: 1em;
+    mix-blend-mode: multiply;
+    font-size: 1.2em;
+  }
+  

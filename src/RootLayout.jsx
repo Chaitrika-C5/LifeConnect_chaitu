@@ -8,7 +8,7 @@ function RootLayout() {
   return (
     <div>
       {location.pathname === '/' && <Header />}
-      <div style={{ minHeight: "100vh" }} className="layout">
+      <div style={{ minHeight: "87vh" }} className="layout">
         <Outlet />
       </div>
     </div>

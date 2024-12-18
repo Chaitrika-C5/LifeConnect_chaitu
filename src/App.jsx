@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Choose from './components/choose/choose';
 import PatientLogin from './components/patientlogin/PatientLogin';
 import HospitalLogin from './components/hospitallogin/HospitalLogin';
+import PatientRegister from './components/patientreigster/PatientRegister';
+import Location from './components/location/Location';
 
 
 
@@ -31,6 +33,14 @@ function App() {
         {
           path: "/hospitallogin",
           element: <HospitalLogin />
+        },
+        {
+          path:"/patientregister",
+          element: <PatientRegister />
+        },
+        {
+          path:"/location",
+          element: <Location />
         }
       ]
     }
